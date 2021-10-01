@@ -1,0 +1,42 @@
+.howto {
+  background-image: url(../images/bg_howto.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top center;
+  padding-bottom: 100px;
+}
+
+.zodiac {
+  text-align: center;
+}
+
+.zodiac circle,
+.zodiac text,
+foreignObject {
+  transition: all 0.5s;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.zodiac g:hover circle {
+  r: 20px;
+  fill: #036cca;
+}
+.zodiac g:hover text {
+  fill: #036cca;
+  font-size: 28px;
+}
+
+.zodiac text {
+  font-size: 14px;
+  width: 50px;
+}
+
+.zodiac g:hover foreignObject {
+  color: #036cca;
+  font-size: 22px;
+}
+
+foreignObject {
+  text-align: left;
+}

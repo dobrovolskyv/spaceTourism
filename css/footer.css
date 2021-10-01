@@ -1,0 +1,37 @@
+.footer {
+  background-image: url(../images/bg_footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+}
+
+.footer__inner {
+  display: flex;
+  justify-content: flex-end;
+}
+.footer__inner li {
+  list-style: none;
+}
+
+.footer_inner-text,
+.footer__inner-site,
+.footer__inner-nav {
+  min-width: 120px;
+  font-size: 14px;
+  line-height: 17px;
+}
+.footer_inner-text li,
+.footer__inner-site li,
+.footer__inner-nav li {
+  margin-bottom: 15px;
+  max-width: 150px;
+  margin-right: 10px;
+}
+.text-item + .text-item {
+  margin-top: 27px;
+}
+
+.footer__inner-site li:hover,
+.footer__inner-nav li:hover {
+  color: red;
+}

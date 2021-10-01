@@ -1,0 +1,118 @@
+.about {
+  background-image: url(../images/bg_about.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  position: relative;
+}
+
+.about::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  height: 120px;
+  width: 100%;
+  background: linear-gradient(180deg, #010203 0%, rgba(1, 2, 3, 0) 100%);
+}
+
+.about__title {
+  font-size: 48px;
+}
+
+.galactic,
+.origin,
+.space {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 150px;
+}
+
+.galactic__content-title,
+.origin__content-title,
+.space__content-title {
+  font-family: "sf-pro-display";
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.galactic__content-subtitle,
+.origin__content-subtitle,
+.space__content-subtitle {
+  font-family: "sf-pro-display";
+  font-weight: 400;
+  color: #036cca;
+  font-size: 15px;
+}
+
+.galactic__content,
+.origin__content,
+.space__content {
+  max-width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.galactic__content-description,
+.origin__content-description,
+.space__content-description {
+  display: flex;
+  justify-content: space-between;
+}
+
+.galactic__content-description p,
+.origin__content-description p,
+.space__content-description p {
+  margin-right: 45px;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.about__table {
+  font-size: 16px;
+  font-family: "sf-pro-display";
+  font-weight: 400;
+}
+
+.about__table-td {
+  padding-right: 28px;
+  padding-bottom: 20px;
+  border-top: 1px solid white;
+  border-bottom: 1px solid white;
+}
+
+.about__table-tr {
+  border: 1px solid white;
+  border-left: none;
+  border-right: none;
+}
+
+.about__table-td {
+  padding: 10px 30px 10px 0;
+}
+.about__table-tr + .about__table-tr {
+  font-size: 36px;
+  line-height: 40px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.about__table-tr span {
+  font-size: 14px;
+  line-height: 17px;
+  display: block;
+}
+
+.btn {
+  margin-top: 100px;
+}
+
+.btn__link {
+  border: 1px solid white;
+  padding: 10px 25px;
+}
+
+.table-caption {
+  font-size: 12px;
+  margin-top: 20px;
+}

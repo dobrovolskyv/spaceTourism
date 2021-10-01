@@ -1,0 +1,28 @@
+.reserve {
+  background-image: url(../images/bg_reserve.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
+  min-height: 100vh;
+}
+
+.reserve__content {
+  display: flex;
+  justify-content: space-between;
+  width: 600px;
+}
+
+.reserve__info {
+  max-width: 400px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 100px;
+}
+
+.reserve__text {
+  width: 150px;
+  font-size: 14px;
+  line-height: 17px;
+  margin-left: 52px;
+  margin-right: 0;
+}
